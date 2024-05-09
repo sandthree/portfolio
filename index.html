@@ -13,8 +13,11 @@
 <h3>現在の時刻</h3>
 
 <div id ="d1"></div>
+<div id ="d2">&nbsp;</div>
 <script>
+	setInterval(function(){
 	document.getElementById("d1").innerHTML = new Date().toDateString();
+	},1000);
 </script>
 	</body>
 </html>
